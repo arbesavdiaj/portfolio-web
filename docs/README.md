@@ -127,7 +127,7 @@
 ### Screenshots
 
 ![page1](./IMG/Screenshot%202023-07-03%20211206.png)
-
+![home page](<IMG/home page.png>)
 
 
 ## Design Considerations
