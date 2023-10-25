@@ -126,8 +126,11 @@
 
 ### Screenshots
 
-![page1](./IMG/Screenshot%202023-07-03%20211206.png)
 ![home page](<IMG/home page.png>)
+![skills](IMG/skills.png)
+![project](IMG/projects.png)
+![about me](<IMG/about me.png>)
+![contact](IMG/contact.png)
 
 
 ## Design Considerations
