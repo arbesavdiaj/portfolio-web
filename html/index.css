@@ -5,7 +5,7 @@
     background-attachment: fixed;
   }
         body {
-          font-family: "Lato", sans-serif;
+          font-family: "Lato", serif;
         }
         
         .sidenav {
@@ -25,6 +25,7 @@
           padding: 8px 8px 8px 32px;
           text-decoration: none;
           font-size: 25px;
+          font-weight: bold;
           color: #818181;
           display: block;
           transition: 0.3s;
@@ -46,6 +47,4 @@
           .sidenav {padding-top: 15px;}
           .sidenav a {font-size: 18px;}
         }
-      
-    
        
