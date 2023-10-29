@@ -3,13 +3,29 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
   }
+
+  .centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
         body {
           font-family: "Lato", serif;
-          height: 100vh;
-          text-align: center;
-          
         }
+
+        img {
+          border-radius: 50%;
+          height: 300px;
+          width: 300px;
+      }
+
+      .circle {
+        border-radius: 50%;
+    }
         
         .sidenav {
           height: 100%;
