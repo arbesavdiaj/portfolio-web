@@ -21,6 +21,9 @@
         document.getElementById("mySidenav").style.width = "0";
       }
       </script>
+
+  <span style="font-weight: bold;font-size:35px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
     <title>My Portfolio</title>
 </head>
 <body>
@@ -30,8 +33,10 @@
 </div>
 
     <Body background="../docs/IMG/background.jpg"></Body> 
-    <img src="../docs/IMG/logo.jpg" alt="Logo" class="circle" >
-      
+    
+    <div class="logo-container">
+    <img src="../docs/IMG/logo.jpg" alt="Logo" class="logo" >
+    </div>
 
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -42,8 +47,6 @@
           <a href="#">Contact</a>
         </div>
         
-        <span style="font-weight: bold;font-size:35px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-
         <footer>
           
           <div class="social-icons">

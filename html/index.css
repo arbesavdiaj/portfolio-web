@@ -17,14 +17,15 @@
           font-family: "Lato", serif;
         }
 
-        img {
-          border-radius: 50%;
-          height: 300px;
-          width: 300px;
+        .logo-container {
+          display: flex;
+          justify-content: center;
       }
 
-      .circle {
+      .logo {
         border-radius: 50%;
+        height: 250px;
+        width: 250px;
     }
         
         .sidenav {
