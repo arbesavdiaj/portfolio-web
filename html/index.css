@@ -6,6 +6,10 @@
     position: relative;
   }
 
+  body:not(.loaded) #slider img {
+    display: none;
+  }
+
   .centered-content {
     position: absolute;
     top: 50%;
