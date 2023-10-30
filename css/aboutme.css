@@ -23,6 +23,18 @@ body {
     height: 400px;
     width: 400px;
 }
+.center-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    border: 5px solid ; 
+    padding: 40px; 
+    width: 680px;
+    padding-right: 30px;
+    font-size: 25px;
+    right: 100px;
+}
 
 body {
       font-family: "Lato", serif;
