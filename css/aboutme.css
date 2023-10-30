@@ -13,20 +13,31 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-        body {
-          font-family: "Lato", serif;
-        }
+.center-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding-left: 100px;
+    padding-top: 90px;
+    height: 400px;
+    width: 400px;
+}
 
-        .logo-container {
-          display: flex;
-          justify-content: center;
-      }
+body {
+      font-family: "Lato", serif;
+}
 
-      .logo {
-        border-radius: 50%;
-        height: 250px;
-        width: 250px;
-    }
+.logo-container {
+      display: flex;
+      justify-content: center;
+}
+
+.logo {
+border-radius: 50%;
+height: 250px;
+width: 250px;
+}
         
         .sidenav {
           height: 100%;
