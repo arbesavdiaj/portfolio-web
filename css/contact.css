@@ -64,17 +64,5 @@ body {
           text-decoration: none;
           margin: 0 10px;
       }
-            @media only screen and (min-device-width: 375px) and (max-device-width: 750px) {
-      
-             form {
-              text-align: center;
-                font-size: 15px;
-              }
 
-      
-              .logo {
-                width: 150px;
-                height: 150px;
-                font-size: 30px;
-              }
-            }
+           
