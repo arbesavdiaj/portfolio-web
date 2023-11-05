@@ -96,15 +96,18 @@ width: 250px;
         .center-right{
           flex-direction: column-reverse;
           font-size: 130%;
+          top: 40%;
+          left: 1%;
+          font-size: 100%;
        }
 
         .center-left{
           width: 100%;
           height: auto;
           margin-left: -10%;
-          margin-top: 40%;
+          margin-top: 50%;
           }
-                }
+    }
        
         footer {
           background-color: #333;
