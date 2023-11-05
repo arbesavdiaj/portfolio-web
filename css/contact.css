@@ -98,12 +98,13 @@ form {
 
   form {
     margin-right: 30px;
-    margin-left: auto;
+    margin-left: 10%;
     height: fit-content
   }
 
   h1 {
     height: fit-content;
+    font-size: 130%;
   }
 
   .form-container {
@@ -115,7 +116,8 @@ form {
   }
   
   form{
-    height: fit-content;
+    height: 10%;
+    
   }
 }
 
