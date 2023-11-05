@@ -96,6 +96,7 @@
       width: 150px;
       height: 150px;
       font-size: 30px;
+      margin-top: 15%;
       }
     }
       
@@ -109,4 +110,10 @@
       font-weight: bold;
       font-size: 35px;
     }
+        .logo {
+          width: 150px;
+          height: 150px;
+          font-size: 30px;
+          margin-top: 15%;
+        }
   }
