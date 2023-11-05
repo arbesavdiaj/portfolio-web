@@ -119,6 +119,9 @@ form {
     height: 10%;
     
   }
+  footer {
+    margin-top: 90%;
+  }
 }
 
 input[type="text"],
