@@ -99,21 +99,4 @@
       margin-top: 15%;
       }
     }
-      
-
-
-  @media only screen and (min-device-width: 450px) and (max-device-width: 750px) {
-
-    /* For portrait layouts only */
-    .centered-content>h1 {
-      color: white;
-      font-weight: bold;
-      font-size: 35px;
-    }
-        .logo {
-          width: 150px;
-          height: 150px;
-          font-size: 30px;
-          margin-top: 15%;
-        }
-  }
+    
