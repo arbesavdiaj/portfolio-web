@@ -95,12 +95,7 @@ width: 250px;
 
         .center-right{
           flex-direction: column-reverse;
-          margin-left: -4%;
           font-size: 130%;
-          left: 15%;
-          height: 20%;
-          bottom: 0;
-          left: 0;
        }
 
         .center-left{
