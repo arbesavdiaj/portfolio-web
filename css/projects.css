@@ -139,19 +139,15 @@ footer {
   .logo {
     height: 100px;
     width: 100px;
-    margin-top: 15%;
+    margin-top: 10%;
   }
 
   .sidenav a {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .sidenav .closebtn {
     font-size: 30px;
-  }
-
-  .container {
-    flex-direction: column;
   }
 
   .left,
@@ -161,15 +157,21 @@ footer {
     padding-top: 20px;
   }
 
+  .middle{
+    margin-left: 15px;
+    margin-top: -430px;
+  }
+
+
   .left img,
   .middle a,
   .right div {
-    height: 1%;
+    height: auto;
     width: 110%;
+    margin-top: -15%;
   }
 
   .middle a {
-    margin-bottom: -140%;
     width: 80%;
   }
 }
