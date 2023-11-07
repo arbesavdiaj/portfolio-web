@@ -58,7 +58,7 @@ body {
           color: #fff;
           text-align: center;
           padding: 20px;
-          margin-top: 850px;
+          margin-top: 200px;
       }
 
       .social-icons a {
@@ -122,7 +122,7 @@ form {
     
   }
   footer {
-    margin-top: 90%;
+    margin-top: 40%;
   }
 }
 
