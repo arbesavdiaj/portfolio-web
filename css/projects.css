@@ -89,9 +89,10 @@ footer {
   flex-direction: column;
   align-items: center;
   padding-top: 420px;
-  margin-bottom: 100px;
   color: white;
-  font-size: 30px;
+  margin-left: 390px;
+  margin-top: -85%;
+  font-size: 150%;
 }
 
 .middle a {
@@ -107,17 +108,26 @@ footer {
   color: white;
   font-size: 30px;
   margin-right: 20px;
+  margin-top: -104%;
 }
 
 .right div {
   margin-bottom: 50px;
 }
 
-.box {
+.box{
   border: 2px solid white;
   padding: 10px;
   margin-bottom: 10px;
   width: 300px;
+  background-color: black;
+}
+
+.box1 {
+  border: 2px solid white;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 305px;
   background-color: black;
 }
 
@@ -156,5 +166,10 @@ footer {
   .right div {
     height: 1%;
     width: 110%;
+  }
+
+  .middle a {
+    margin-bottom: -140%;
+    width: 80%;
   }
 }
