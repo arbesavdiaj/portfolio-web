@@ -1,0 +1,85 @@
+
+ 
+       
+h1 {
+  text-align: center;
+  border: 5px solid aqua;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: white;
+  color: black;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 150px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 750px) {
+
+  form {
+    margin-right: 30px;
+    margin-left: 10%;
+    height: fit-content
+  }
+
+  h1 {
+    height: fit-content;
+    font-size: 130%;
+  }
+
+  .form-container {
+    width: 200px;
+  }
+  .logo{
+    width: 150px;
+  height: 150px;
+  margin-top: 15%;
+  }
+  
+  form{
+    height: 10%;
+    
+  }
+  footer {
+    margin-top: 40%;
+  }
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 96%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+           

@@ -126,11 +126,11 @@
 
 ### Screenshots
 
-![home page](<IMG/home page.png>)
-![skills](IMG/skills.png)
-![project](IMG/projects.png)
-![about me](<IMG/about me.png>)
-![contact](IMG/contact.png)
+![home page](img/home-page.png)
+![skills](img/skills-page.png)
+![project](img/projects-page.png)
+![about me](img/about-me-page.png)
+![contact](img/contact-page.png)
 
 
 ## Design Considerations

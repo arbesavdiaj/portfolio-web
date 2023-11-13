@@ -1,0 +1,38 @@
+  
+
+  .centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+  
+
+
+  h1 {
+    color: white;
+  }
+
+
+ 
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
+
+    /* For portrait layouts only */
+    .centered-content>h1 {
+      color: white;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    .logo{
+      width: 150px;
+      height: 150px;
+      font-size: 30px;
+      margin-top: 15%;
+      }
+    }
+    
