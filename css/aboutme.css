@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     position: relative;
     font-family: "Lato", serif;
+    background-color: #000;
   }
 
   .centered-content {
