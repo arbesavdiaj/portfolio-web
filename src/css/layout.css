@@ -71,3 +71,11 @@ footer {
     text-decoration: none;
     margin: 0 10px;
 }
+
+@media (max-width: 480px) {
+    body{
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
