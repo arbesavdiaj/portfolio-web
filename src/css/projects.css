@@ -49,58 +49,53 @@ footer {
   margin-top: 15%;
 }
 
-@media only screen and (max-width: 480px) {
-  body {
-    background-size: cover;
-  }
-
+@media (max-width: 480px) {
   .logo {
-    height: 100px;
-    width: 100px;
-    margin-top: 10%;
-  }
-
-  .sidenav a {
-    font-size: 25px;
-  }
-
-  .sidenav .closebtn {
-    font-size: 30px;
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+      margin-top: 10%;
+    }
+  
+  .container {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 0;
   }
 
   .left,
   .middle,
   .right {
-    align-items: center;
-    padding-top: 20px;
+    margin-top: 10%;
+    gap: 20px;
   }
 
-  .middle{
-    margin-left: 15px;
-    margin-top: -430px;
-  }
-
-  .left img,
-  .middle a,
-  .right div {
+  .left img {
+    margin-right: 30px;
+    margin-bottom: 40px;
+    width: 400px;
     height: auto;
-    width: 100%;
-    margin-top: -15%;
-    margin-right: 5%;
   }
 
-  .middle a {
-    width: 80%;
+  .middle {
+    font-size: 150%;
+    gap: 50px;
+    height: auto;
+    width: 90%;
   }
 
-  .right{
-    font-size: medium;
-    width: 80%;
-    margin-left: 9%;
+  .right {
+    margin-right: 0;
+    gap: 20px;
+    height: auto;
+    width: 90%;
+    font-size: 150%;
   }
 
-    .right div {
-      margin-bottom: 80px;
-      margin-left: 19px;
-    }
+  p1,
+  p2,
+  .box,
+  .box1 {
+    width: 90%;
+  }
 }
