@@ -1,60 +1,58 @@
-
-
-  .centered-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 100vh;
+  flex-direction: row-reverse;
 }
-.center-left {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    padding-left: 40px;
-    padding-top: 90px;
-    padding-bottom: 30px;
-    height: 400px;
-    width: 600px;
-}
+
+.center-left,
 .center-right {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    color: white;
-    border: 5px solid ; 
-    padding: 40px; 
-    width: 680px;
-    font-size: 25px;
-    right: 30px;
-    background-color: #111;
-    
+  height: 400px;
+  width: 600px;
+  padding: 40px;
 }
 
-        
-        @media only screen and (min-device-width: 300px) and (max-device-width: 480px) {
-        .logo {
-          border-radius: 50%;
-          height: 150px;
-          width: 150px;
-          margin-top: 10%;
-        }
+.center-left {
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
 
-        .center-right{
-          flex-direction: column-reverse;
-          font-size: 130%;
-          top: 40%;
-          left: 1%;
-          font-size: 110%;
-          height: 30%;
-          width: 75%;
-       }
+.center-right {
+  color: white;
+  border: 5px solid;
+  width: 600px;
+  font-size: 25px;
+  background-color: #111;
+}
 
-        .center-left{
-          width: 100%;
-          height: auto;
-          margin-left: -10%;
-          margin-top: 70%;
-          }
-    }
+footer{
+  margin-top: 0%;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 480px) {
+.logo {
+border-radius: 50%;
+height: 150px;
+width: 150px;
+margin-top: 10%;
+}
+
+.center-right{
+flex-direction: column-reverse;
+font-size: 130%;
+top: 40%;
+left: 1%;
+font-size: 110%;
+height: 30%;
+width: 75%;
+}
+
+.center-left{
+width: 100%;
+height: auto;
+margin-left: -10%;
+margin-top: 70%;
+}
+}
