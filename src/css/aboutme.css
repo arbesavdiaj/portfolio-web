@@ -48,13 +48,13 @@ footer{
 
   .center-left
    {
-    width: 90%;
+    width: 80%;
     height: auto;
   }
 
     .center-right{
-      width: 70%;
-      height: auto;
-      font-size: 120%;
+      width: 60%;
+      height: 70%;
+      font-size: 90%;
     }
 }
