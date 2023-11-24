@@ -31,28 +31,30 @@ footer{
   margin-top: 0%;
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 480px) {
-.logo {
-border-radius: 50%;
-height: 150px;
-width: 150px;
-margin-top: 10%;
-}
+@media (max-width: 480px) {
+  .logo {
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+      margin-top: 10%;
+    }
+  
+  .content {
+    flex-direction: column-reverse;
+    height: auto;
+    margin-bottom: 10%;
+    gap: 10px;
+  }
 
-.center-right{
-flex-direction: column-reverse;
-font-size: 130%;
-top: 40%;
-left: 1%;
-font-size: 110%;
-height: 30%;
-width: 75%;
-}
+  .center-left
+   {
+    width: 90%;
+    height: auto;
+  }
 
-.center-left{
-width: 100%;
-height: auto;
-margin-left: -10%;
-margin-top: 70%;
-}
+    .center-right{
+      width: 70%;
+      height: auto;
+      font-size: 120%;
+    }
 }
