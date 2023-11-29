@@ -1,31 +1,30 @@
 .centered-content {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /*use flex to fill the screen*/
+}
 
-  h1 {
+h1 {
+  color: white;
+}
+
+footer {
+  margin-top: auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
+  .centered-content > h1 {
     color: white;
+    font-weight: bold;
+    font-size: 30px;
   }
-
-  footer{
-    margin-top: auto;
+  .logo {
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    margin-top: 15%;
   }
-
-  @media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
-
-    .centered-content>h1 {
-      color: white;
-      font-weight: bold;
-      font-size: 30px;
-    }
-    .logo{
-      width: 150px;
-      height: 150px;
-      font-size: 30px;
-      margin-top: 15%;
-      }
-    }
-    
+}

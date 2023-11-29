@@ -1,77 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="stylesheet" href="../css/layout.css" type="text/css">
-    <link rel="stylesheet" href="../css/projects.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <link rel="stylesheet" href="../css/layout.css" type="text/css" />
+    <link rel="stylesheet" href="../css/projects.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <title>Projects</title>
   </head>
 
-    <script>
-      function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-      }
-      
-      function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-      }
-      </script>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
 
-  <span style="font-weight: bold;font-size:35px;cursor:pointer" onclick="openNav()">&#9776; Projects</span>
-    
-<body>
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
 
-  <div class="logo-container">
-    <img src="../assets/logo.jpg" alt="Logo" class="logo" >
+  <span
+    style="font-weight: bold; font-size: 35px; cursor: pointer"
+    onclick="openNav()"
+    >&#9776; Projects</span
+  >
+
+  <body>
+    <div class="logo-container">
+      <img src="../assets/logo.jpg" alt="Logo" class="logo" />
     </div>
 
-    <Body background="../assets/background.svg"></Body> 
+    <body background="../assets/background.svg"></body>
 
-    </head>
-    <body>
-        <div class="container">
-            <div class="left">
-            <img src="../assets/carpage.png" alt="Image 1" height="400" width="700">
-              <img src="../assets/holberton-logo.png" alt="Image 2" height="350" width="650">
+    <div class="container">
+      <div class="projects">
+        <div class="project-card">
+          <div class="project-overview">
+            <div class="project-title">
+              <a href="#">My First Webpage in HTML</a>
             </div>
-           
-            <div class="middle">
-                <a href="My First Webpage.html" class="box">My First Webpage in HTML !</a>
-                <a href="https://apply.holbertonschool.com/auth/sign_up" class="box1">Holberton School Link, Apply!</a>
+            <div class="project-image">
+              <img src="../assets/carpage.png" alt="carpage.png" />
             </div>
-            
-        <div class="right">
-                <p1>Creating my first HTML webpage from scratch without any prior experience was a thrilling challenge. 
-                  Learning the basics of HTML, like tags and elements, and experimenting with CSS to style the page was a rewarding experience. 
-                  Despite initial frustration, this journey ignited my curiosity to explore web development further. </p1>
-               
-                <p2>Holberton School is a Computer Science school founded in Silicon Valley to address the gap in the education system for aspiring software engineers.
-                  After Holberton School opened its doors in 2016, the world’s most innovative companies have noticed. 
-                  Graduates have found jobs at LinkedIn, Google, Tesla, Docker, Apple, Dropbox, Facebook, Pinterest, Genentech, Cisco, IBM, and more.</div>
-                </p2>
-            </div>
-       
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="../index.html">Home</a>
-          <a href="projects.html">Projects</a>
-          <a href="skills.html">Skills</a>
-          <a href="aboutme.html">About Me</a>
-          <a href="contact.html">Contact</a>
-        </div>
-        
-        <footer>
-          
-          <div class="social-icons">
-              <a href="https://github.com/arbesavdiaj"><i class="fab fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/arbes-avdiaj-bb60b4255/"><i class="fab fa-linkedin"></i></a> 
-              <a href="https://www.instagram.com/arbesavdiaj/?next=%2F"><i class="fab fa-instagram"></i></a> 
           </div>
-          
-          <p>&copy; Arbes Avdiaj - 2023 My Personal Portfolio</p>
-      </footer>
+          <div class="project-details">
+            <p>
+              Creating my first HTML webpage from scratch without any prior
+              experience was a thrilling challenge. Learning the basics of HTML,
+              like tags and elements, and experimenting with CSS to style the
+              page was a rewarding experience. Despite initial frustration, this
+              journey ignited my curiosity to explore web development further.
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-overview">
+            <div class="project-title">
+              <a href="https://apply.holbertonschool.com/auth/sign_up"
+                >Holberton School</a
+              >
+            </div>
+            <div class="project-image">
+              <img
+                src="../assets/holberton-logo.png"
+                alt="holberton-logo.png"
+              />
+            </div>
+          </div>
+          <div class="project-details">
+            <p>
+              Holberton School is a Computer Science school founded in Silicon
+              Valley to address the gap in the education system for aspiring
+              software engineers. After Holberton School opened its doors in
+              2016, the world’s most innovative companies have noticed.
+              Graduates have found jobs at LinkedIn, Google, Tesla, Docker,
+              Apple, Dropbox, Facebook, Pinterest, Genentech, Cisco, IBM, and
+              more.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-</body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="../index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <footer>
+      <div class="social-icons">
+        <a href="https://github.com/arbesavdiaj"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/arbes-avdiaj-bb60b4255/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.instagram.com/arbesavdiaj/?next=%2F"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+
+      <p>&copy; Arbes Avdiaj - 2023 My Personal Portfolio</p>
+    </footer>
+  </body>
 </html>

@@ -2,48 +2,70 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
-  margin-bottom: 40%;
 }
 
-.left,
-.middle,
-.right {
+.projects {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 30%;
 }
 
-.left {
-  gap: 100px;
-  margin-left: 30px;
-}
-
-.middle {
-  color: white;
-  font-size: 150%;
-  gap: 400px;
-}
-
-.middle a {
-  color: white;
-}
-
-.right {
-  color: white;
-  font-size: 30px;
-  gap: 70px;
-  margin-right: 20px;
-}
-
-p1, p2, .box, .box1 {
-  border: 2px solid white;
+.project-card {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
   padding: 10px;
-  margin-bottom: 10px;
-  width: 300px;
+  border: 2px solid white;
+  background-color: orange;
+}
+
+.project-overview {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 40em;
+  background-color: green;
+  margin: 10px;
+  padding: 10px;
+}
+
+.project-title {
+  background-color: purple;
+  margin: 10px;
+  padding: 10px;
+}
+
+.project-title a {
+  color: white;
   background-color: black;
 }
+
+.project-image {
+  background-color: aqua;
+  margin: 10px;
+  padding: 10px;
+  height: 40vh;
+}
+
+.project-image img {
+  height: 40vh;
+  width: 30em;
+  object-fit: contain;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  background-color: blue;
+  margin: 10px;
+  padding: 10px;
+}
+
+.project-details p {
+  background-color: black;
+}
+
+
 
 footer {
   margin-top: 15%;
@@ -56,46 +78,18 @@ footer {
       width: 150px;
       margin-top: 10%;
     }
-  
+
   .container {
     flex-direction: column;
     height: auto;
     margin-bottom: 0;
   }
 
-  .left,
-  .middle,
-  .right {
-    margin-top: 10%;
-    gap: 20px;
+  .project-card {
+    flex-direction: column;
   }
 
-  .left img {
-    margin-right: 30px;
-    margin-bottom: 40px;
-    width: 350px;
-    height: auto;
-  }
-
-  .middle {
-    font-size: 140%;
-    gap: 50px;
-    height: auto;
-    width: 90%;
-  }
-
-  .right {
-    margin-right: 0;
-    gap: 20px;
-    height: auto;
-    width: 90%;
-    font-size: 150%;
-  }
-
-  p1,
-  p2,
-  .box,
-  .box1 {
-    width: 90%;
+  .project-overview {
+    flex-basis: auto;
   }
 }
