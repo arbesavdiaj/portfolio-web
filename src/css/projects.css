@@ -32,6 +32,8 @@
   background-color: purple;
   margin: 10px;
   padding: 10px;
+  text-align: center;
+  font-size: xx-large;
 }
 
 .project-title a {
@@ -48,7 +50,7 @@
 
 .project-image img {
   height: 40vh;
-  width: 30em;
+  width: 40em;
   object-fit: contain;
 }
 
@@ -63,9 +65,8 @@
 
 .project-details p {
   background-color: black;
+  font-size: 150%;
 }
-
-
 
 footer {
   margin-top: 15%;
@@ -73,11 +74,11 @@ footer {
 
 @media (max-width: 480px) {
   .logo {
-      border-radius: 50%;
-      height: 150px;
-      width: 150px;
-      margin-top: 10%;
-    }
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
+  }
 
   .container {
     flex-direction: column;

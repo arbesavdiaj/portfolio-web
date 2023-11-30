@@ -7,6 +7,23 @@ body {
   background-color: #000;
   color: white;
   font-family: "Lato", serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  transition: margin-left 0.5s;
+}
+
+#mySidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
 .logo-container {
@@ -70,6 +87,7 @@ footer {
   color: #fff;
   text-decoration: none;
   margin: 0 10px;
+  font-size: 150%;
 }
 
 @media (max-width: 480px) {
@@ -77,5 +95,12 @@ footer {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+  }
+
+  .logo {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
   }
 }
