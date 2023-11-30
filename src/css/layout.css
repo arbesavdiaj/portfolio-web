@@ -103,4 +103,10 @@ footer {
     width: 150px;
     margin-top: 10%;
   }
+
+  body.open {
+    margin-left: 250px;
+  }
+
+  
 }

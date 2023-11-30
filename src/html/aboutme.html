@@ -15,12 +15,16 @@
   <script>
     function openNav() {
       document.getElementById("mySidenav").style.width = "250px";
-      document.body.style.marginLeft = "250px";
+      if (window.innerWidth >= 768) {
+        document.body.style.marginLeft = "250px";
+      }
     }
-
+  
     function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
-      document.body.style.marginLeft = "0";
+      if (window.innerWidth >= 768) {
+        document.body.style.marginLeft = "0";
+      }
     }
   </script>
 
