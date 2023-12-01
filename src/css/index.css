@@ -1,10 +1,19 @@
-.centered-content {
-  text-align: center;
+.project-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  /*use flex to fill the screen*/
+  align-items: center; 
+  flex-basis: 42em;
+  background-color: green;
+  margin: 10px;
+  padding: 10px;
+  height: 50vh;
+}
+
+.project-content {
+  background-color: purple;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
 }
 
 h1 {
@@ -12,7 +21,7 @@ h1 {
 }
 
 footer {
-  margin-top: auto;
+  margin-top: 15%;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
