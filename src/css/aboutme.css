@@ -1,25 +1,48 @@
-.content {
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  height: 100vh;
+  justify-content: space-between;
   flex-direction: row-reverse;
+  background-color: orange;
+  margin: 10px;
+  padding: 10px;
 }
 
-.center-left,
-.center-right {
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: red;
+  flex-basis: 40em;
+  margin: 10px;
+  padding: 10px;
+}
+
+.image-content {
+  background-color: blue;
+  margin: 10px;
+  padding: 10px;
+}
+
+.project-image,
+.project-description {
   height: 400px;
-  width: 600px;
   padding: 40px;
 }
 
-.center-left {
+.project-image {
   padding-top: 90px;
   padding-bottom: 80px;
 }
 
-.center-right {
+.project-description {
   color: white;
   border: 5px solid;
   width: 600px;
@@ -46,13 +69,13 @@ footer{
     gap: 10px;
   }
 
-  .center-left
+  .project-image
    {
     width: 80%;
     height: auto;
   }
 
-    .center-right{
+    .project-description{
       width: 60%;
       height: 70%;
       font-size: 90%;
