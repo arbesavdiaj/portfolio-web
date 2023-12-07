@@ -9,9 +9,10 @@ h1 {
 }
 
 .container {
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   display: flex;
+  flex-direction: column;
 }
 
 .projects {
@@ -21,10 +22,12 @@ h1 {
 
 .project-card {
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  margin: 10px;
+  margin: auto;
   padding: 10px;
   background-color: blue;
+  width: 60%;
 }
 
 .project-details {
