@@ -1,19 +1,25 @@
-.project-container {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
   background-color: red;
   margin: 10px;
   padding: 10px;
-  height: 100vh;
 }
 
 .project-table {
+  display: flex;
+  flex-direction: column;
   background-color: aqua;
   margin: 10px;
   padding: 10px;
-  flex-basis: 50em;
+  min-width: 60em;
+  width: 80%;
 }
 
 table {
