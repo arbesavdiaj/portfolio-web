@@ -25,11 +25,18 @@ footer {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
-  .centered-content > h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
+  .project-container {
+    flex-direction: column;
   }
+
+  .project-content {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
   .logo {
     width: 150px;
     height: 150px;

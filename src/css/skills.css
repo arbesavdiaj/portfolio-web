@@ -39,17 +39,27 @@ th, td {
 footer {
   margin-top: 5%;
 }
-        
-  @media only screen and (max-width: 480px){
-.logo{
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  margin-top: 10%;
-}
+
+@media only screen and (max-width: 480px){
+  .logo{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
+  }
+
   body {
-  background-repeat: no-repeat;
-  background-size: cover; 
-  background-attachment: fixed; 
-} 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+  }
+
+  .container, .project {
+    flex-direction: column;
+  }
+
+  .project-table {
+    min-width: auto;
+    width: 90%;
+  }
 }

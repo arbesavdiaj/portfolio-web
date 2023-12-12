@@ -14,7 +14,6 @@
   flex-direction: row;
   margin: 10px;
   padding: 10px;
-  border: 2px solid white;
   background-color: orange;
 }
 
@@ -45,11 +44,9 @@
   background-color: aqua;
   margin: 10px;
   padding: 10px;
-  height: 40vh;
 }
 
 .project-image img {
-  height: 40vh;
   width: 40em;
   object-fit: contain;
 }
@@ -65,7 +62,9 @@
 
 .project-details p {
   background-color: black;
-  font-size: 150%;
+  font-size: 200%;
+  text-align: center;
+  margin-top: auto;
 }
 
 footer {
@@ -92,5 +91,19 @@ footer {
 
   .project-overview {
     flex-basis: auto;
+  }
+
+  .project-image img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .project-title {
+    font-size: larger
+  }
+  
+  .project-details p {
+    background-color: black;
+    font-size: 100%;
   }
 }
