@@ -2,10 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center; 
-  flex-basis: 42em;
   background-color: green;
-  margin: 10px;
-  padding: 10px;
   height: 50vh;
 }
 
@@ -26,21 +23,29 @@ footer {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
   .project-container {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-
+  
   .project-content {
-    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
   }
-
+  
   h1 {
-    font-size: 20px;
+    font-size: 1.25em;
   }
-
+  
   .logo {
-    width: 150px;
-    height: 150px;
-    font-size: 30px;
-    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.15;
+    font-size: 2em;
   }
+  
 }
